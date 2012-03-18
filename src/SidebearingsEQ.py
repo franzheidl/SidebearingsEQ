@@ -20,8 +20,6 @@ class SidebearingsEQ(BaseWindowController):
     def applyButtonCallback(self, sender):
                 
         if CurrentFont() is None:
-            #warn/alert if no font is open  
-            self.showMessage("Ergh...", "You might want to open a font first?")
             # warn/alert if no font is open  
             self.showMessage(u"Ergh\u2026", u"\u2026You might want to open a font first?")
         else:        
@@ -29,22 +27,25 @@ class SidebearingsEQ(BaseWindowController):
             if self.w.scopeRadioGroup.get() == 0:
                 glyphNames = font.keys()
             else:
-                glyphNames = font.selection
+                glyphNames = font.selection       
             if glyphNames == []:
-                #alert if scope is "Selected Glyphs" but no glyphs are selected:
+                # alert if scope is "Selected Glyphs" but no glyphs are selected:
                 self.showMessage("Oops!", "Select at least one glyph please.")
             else:
                 for glyphName in glyphNames:
                     glyph = font[glyphName]
+                    glyph.prepareUndo("Equalize Sidebearings")
                     sidebearings = glyph.leftMargin + glyph.rightMargin
+                    
                     if sidebearings % 2 == 0:
                         leftsidebearing = int(sidebearings / 2)
                         rightsidebearing = int(sidebearings / 2)
                     else:
                         leftsidebearing = int(math.floor(sidebearings / 2))
                         rightsidebearing = int(math.ceil(sidebearings / 2))
-            
+                    
                     glyph.leftMargin = leftsidebearing
                     glyph.rightMargin = rightsidebearing
+                    glyph.performUndo()
 
 SidebearingsEQ()
