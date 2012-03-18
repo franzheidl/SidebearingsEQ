@@ -22,6 +22,8 @@ class SidebearingsEQ(BaseWindowController):
         if CurrentFont() is None:
             #warn/alert if no font is open  
             self.showMessage("Ergh...", "You might want to open a font first?")
+            # warn/alert if no font is open  
+            self.showMessage(u"Ergh\u2026", u"\u2026You might want to open a font first?")
         else:        
             font = CurrentFont()
             if self.w.scopeRadioGroup.get() == 0:
