@@ -14,7 +14,7 @@ SidebearingsEQ will take the sidebearings of each glyph individually, and distri
 
 That small bit of functionality should be pretty useful especially in early stages of design when you haven't yet cared much about spacing but want to have something to start with.
 
-It is NOT meant to set the sidebearings of a selection of multiple glyphs to an identical value.
+SidebearingsEQ treats the glyphs individually, it is NOT meant to set the sidebearings of a selection of multiple glyphs to an identical value for all the selected glyphs.
 
 ## Getting SidebearingsEQ
 You may either fork or clone in to this repository, download the repo tarball, or, if you don't want to do all the git fluff and just want to use SidebearingsEQ, you can simply download the extension and readme as a .zip here.
