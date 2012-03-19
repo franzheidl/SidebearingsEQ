@@ -26,3 +26,6 @@ To de-install SidebearingsEQ, double-click again, and RoboFont will ask you whet
 
 ##Bugs, Feature and Help requests
 Just open an issue here.
+
+##License
+Oh come on. Download, use and abuse as you wish, just do so at your own risk. I've built SidebearingsEQ mainly for my own use and it's made public as is.
