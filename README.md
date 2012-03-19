@@ -1,7 +1,8 @@
 #SidebearingsEQ
 **A tiny extension for RoboFont to equalize sidebearings for all or a selection of glyphs in a font.**
 
-![SidebearingsEQ Screenshot](screenshot.png)
+![SidebearingsEQ Screenshot](http://github.com/franzheidl/SidebearingsEQ/raw/master/screenshot.png)
+ 
 
 ##Using SidebearingsEQ
 SidebaringsEQ can be accessed via RoboFont's Extension Menu.
