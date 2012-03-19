@@ -17,7 +17,7 @@ That small bit of functionality should be pretty useful especially in early stag
 SidebearingsEQ treats the glyphs individually, it is NOT meant to set the sidebearings of a selection of multiple glyphs to an identical value for all the selected glyphs.
 
 ## Getting SidebearingsEQ
-You may either fork or clone in to this repository, download the repo tarball, or, if you don't want to do all the git fluff and just want to use SidebearingsEQ, you can simply download the extension and readme as a .zip here.
+You may either fork or clone in to this repository, [download the repo tarball](http://github.com/franzheidl/SidebearingsEQ/zipball/master/ "Download the SidebearingsEQ repo tarball") , or, if you don't want to do all the git fluff and just want to use SidebearingsEQ, you can simply download the extension and readme as a .zip here.
 
 ##Installing and De-installing SidebearingsEQ
 To install SidebearingsEQ, simply double-click the extension. RoboFontsExtension Manager will take care of the rest. 
