@@ -1,5 +1,5 @@
 #SidebearingsEQ
-**A tiny extension for RoboFont to equalize sidebearings for all or a selection of glyphs in a font.**
+**A tiny extension for [RoboFont](http://doc.robofont.com/) to equalize sidebearings for all or a selection of glyphs in a font.**
 
 ![SidebearingsEQ Screenshot](http://github.com/franzheidl/SidebearingsEQ/raw/master/screenshot.png)
  
@@ -25,4 +25,4 @@ To install SidebearingsEQ, simply double-click the extension. RoboFontsExtension
 To de-install SidebearingsEQ, double-click again, and RoboFont will ask you whether you wish to de-install or re-install the extension.
 
 ##Bugs, Feature and Help requests
-Just opne an issue here.
+Just open an issue here.
