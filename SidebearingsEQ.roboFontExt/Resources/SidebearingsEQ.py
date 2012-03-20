@@ -6,7 +6,7 @@ from defconAppKit.windows.baseWindow import BaseWindowController
 class SidebearingsEQ(BaseWindowController):
 
     def __init__(self):
-        self.w = vanilla.Window((200, 120), "Sidebearings EQ")
+        self.w = vanilla.FloatingWindow((200, 120), "Sidebearings EQ")
         self.w.iconAll = vanilla.ImageView((15, 16, 13, 10))
         self.w.iconAll.setImage(imagePath="allglyphs.png")
         self.w.iconSelected = vanilla.ImageView((15, 43, 13, 10))
