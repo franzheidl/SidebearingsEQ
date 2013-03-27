@@ -33,5 +33,7 @@
 	<real>1332272632.727818</real>
 	<key>version</key>
 	<string>1.1</string>
+	<key>repository</key>
+	<string>franzheidl/SidebearingsEQ</string>
 </dict>
 </plist>
