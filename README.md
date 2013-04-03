@@ -1,6 +1,7 @@
 #SidebearingsEQ
 **A tiny extension for [RoboFont](http://doc.robofont.com/) to equalize sidebearings for all or a selection of glyphs in a font.**
 
+
 ![SidebearingsEQ Screenshot](http://github.com/franzheidl/SidebearingsEQ/raw/master/screenshot.png)
  
 
@@ -16,13 +17,14 @@ That small bit of functionality should be pretty useful especially in early stag
 
 SidebearingsEQ treats the glyphs individually, it is NOT meant to set the sidebearings of a selection of multiple glyphs to an identical value for all the selected glyphs.
 
-## Getting SidebearingsEQ
-You may either fork or clone in to this repository, [download the repo tarball](http://github.com/franzheidl/SidebearingsEQ/zipball/master/ "Download the SidebearingsEQ repo tarball") , or, if you don't want to do all the git fluff and just want to use SidebearingsEQ, you can simply [download the extension and readme as a .zip here.](http://github.com/downloads/franzheidl/SidebearingsEQ/SidebearingsEQ_1_1.zip)
 
 ##Installing and De-installing SidebearingsEQ
 To install SidebearingsEQ, simply double-click the extension. RoboFontsExtension Manager will take care of the rest. 
 
 To de-install SidebearingsEQ, double-click again, and RoboFont will ask you whether you wish to de-install or re-install the extension.
+
+SidebearingsEQ can also be installed and de-installed via [Mechanic](https://github.com/jackjennings/Mechanic), a package manager for RoboFont by Jack Jennings. Mechanic will also notify you and install updates of SidebearingsEQ.
+
 
 ##Bugs, Feature and Help requests
 Just open an issue here.
