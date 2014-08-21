@@ -2,7 +2,7 @@
 **A tiny extension for [RoboFont](http://doc.robofont.com/) to equalize sidebearings for all or a selection of glyphs in a font.**
 
 
-![SidebearingsEQ Screenshot](http://github.com/franzheidl/SidebearingsEQ/raw/master/screenshot.png)
+![SidebearingsEQ Screenshot](screenshot.png)
  
 
 
