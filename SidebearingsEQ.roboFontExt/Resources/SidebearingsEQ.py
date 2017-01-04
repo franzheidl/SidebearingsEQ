@@ -18,7 +18,7 @@ class SidebearingsEQ(BaseWindowController):
         self.w.open()
 
     def applyButtonCallback(self, sender):
-                
+
         if CurrentFont() is None:
             # warn/alert if no font is open  
             self.showMessage(u"Ergh\u2026", u"\u2026You might want to open a font first?")
@@ -35,17 +35,17 @@ class SidebearingsEQ(BaseWindowController):
                 for glyphName in glyphNames:
                     glyph = font[glyphName]
                     glyph.prepareUndo("Equalize Sidebearings")
-                    sidebearings = glyph.leftMargin + glyph.rightMargin
-                    
+                    sidebearings = glyph.angledLeftMargin + glyph.angledRightMargin
+
                     if sidebearings % 2 == 0:
                         leftsidebearing = int(sidebearings / 2)
                         rightsidebearing = int(sidebearings / 2)
                     else:
                         leftsidebearing = int(math.floor(sidebearings / 2))
                         rightsidebearing = int(math.ceil(sidebearings / 2))
-                    
-                    glyph.leftMargin = leftsidebearing
-                    glyph.rightMargin = rightsidebearing
+
+                    glyph.angledLeftMargin = leftsidebearing
+                    glyph.angledRightMargin = rightsidebearing
                     glyph.performUndo()
 
 SidebearingsEQ()
