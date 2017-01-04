@@ -35,7 +35,7 @@ class SidebearingsEQ(BaseWindowController):
                 for glyphName in glyphNames:
                     glyph = font[glyphName]
                     glyph.prepareUndo("Equalize Sidebearings")
-                    sidebearings = glyph.leftMargin + glyph.rightMargin
+                    sidebearings = glyph.angledLeftMargin + glyph.angledRightMargin
                     
                     if sidebearings % 2 == 0:
                         leftsidebearing = int(sidebearings / 2)
@@ -44,8 +44,8 @@ class SidebearingsEQ(BaseWindowController):
                         leftsidebearing = int(math.floor(sidebearings / 2))
                         rightsidebearing = int(math.ceil(sidebearings / 2))
                     
-                    glyph.leftMargin = leftsidebearing
-                    glyph.rightMargin = rightsidebearing
+                    glyph.angledLeftMargin = leftsidebearing
+                    glyph.angledRightMargin = rightsidebearing
                     glyph.performUndo()
 
 SidebearingsEQ()
